@@ -1,0 +1,25 @@
+{
+  "name": "naic-changes-notifier",
+  "version": "1.0.0",
+  "description": "Check naic.org website for changes and send emails if any",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntgn81/naic-changes-notifier.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ntgn81/naic-changes-notifier/issues"
+  },
+  "homepage": "https://github.com/ntgn81/naic-changes-notifier#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "mongodb": "^2.2.33",
+    "nodemailer": "^4.4.0"
+  }
+}
