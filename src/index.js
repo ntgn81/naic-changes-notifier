@@ -36,7 +36,7 @@ async function sendEmail(updatedValues) {
 
   const emailOptions = {
     from: 'Nam <ntgn81@gmail.com>',
-    subject: 'NAIC Changedz z z',
+    subject: 'NAIC Site Updated',
     to: EMAIL_RECIPIENTS,
     text
   };
